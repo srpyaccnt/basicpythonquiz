@@ -62,7 +62,7 @@ while (True):
             2] + "\n" + "D " +
         options[3] +
         "\n" + "Press q to quit"
-    )
+    ).strip()
 
     if (myInput.casefold() == "q"):
         break
